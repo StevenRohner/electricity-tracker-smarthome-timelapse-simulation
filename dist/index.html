@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Steven</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real-Time Stromtarif</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="price-info">
+            <div class="current-price">Heutiger Tarif: <span id="currentPrice">31.13 Ct./kWh</span></div>
+            <div class="previous-price">Gestern: 29.18 Ct./kWh (<span id="priceChange">+6.67%</span>)</div>
+            <div class="time" id="time">00:00:01</div>
+        </div>
+      <div class="solar-production">
+    <h3>Balkonkraftwerk (Input): <span id="solarOutput">0</span> W</h3>
+</div>
+
+        <div class="energy-info">
+            <div>KWh Verbrauch heute: <span id="totalKWh">0</span> kWh</div>
+            <div>Gesamtkosten heute: <span id="totalCost">0</span> €</div>
+        </div>
+        <table id="deviceTable">
+            <thead>
+                <tr>
+                    <th>Uhrzeit</th>
+                    <th>Gerät</th>
+                    <th>Leistung (W)</th>
+                    <th>Laufzeit</th>
+                    <th>Kosten (€)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Zeilen werden per JavaScript hinzugefügt -->
+            </tbody>
+        </table>
+      
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
